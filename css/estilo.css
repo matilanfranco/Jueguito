@@ -1,0 +1,84 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: sans-serif;
+}
+
+.siguientenivel {
+	background-color: red;
+	height: 70px;
+	width: 250px;
+	margin-top: 420px;
+	margin-left: 230px;
+	color: white;
+	font-size: 25px;
+	padding: 15px 0px;
+	text-align: center;
+	border: 5px solid grey;
+	display: none;
+	position: absolute;
+}
+
+.cartel {
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 305px;
+	font-size: 35px;
+	color: green;
+	display: none;
+
+}
+
+
+.nivel1 {
+	position: absolute;
+	margin-top: 460px;
+	margin-left: 16px;
+	font-size: 25px;
+	color: grey;
+}
+
+.contenedor {
+	padding: 0px;
+	margin: auto;
+	width: 500px;
+	height: 500px;
+	background-color: pink;
+	border: 10px dashed red;
+
+}
+
+#player {
+	background-color: red;
+	border: 4px dashed #b22;
+	width: 50px;
+	height: 50px;
+	border-radius: 30px;
+	position: absolute;
+	transition: all 0.2s;
+	
+}
+
+#enemigo {
+	background-color: grey;
+	border: 4px dashed black;
+	width: 50px;
+	height: 50px;
+	border-radius: 30px;
+	margin-top: 250px;
+	margin-left: 250px;
+	position: absolute;
+	transition: all 1s;
+	
+}
+
+.pointer {
+	background-color: grey;
+	height: 30px;
+	margin-top: 30px;
+	border-bottom: 0px;
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	padding: 15px 0px;
+}
